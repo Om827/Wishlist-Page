@@ -1,0 +1,115 @@
+/* only small desktops */
+/* tablets */
+/* only small tablets */
+ @media only screen and (min-width: 992px) and (max-width: 1199px) {
+     nav.navbar.bootsnav ul.nav > li > a{
+         padding-top: 10px;
+		 padding-bottom: 10px;
+		 padding-left: 10px;
+		 padding-right: 30px;
+    }
+}
+ @media (min-width: 768px) and (max-width: 991px) {
+     nav.navbar.bootsnav .navbar-header{
+         width: 100%;
+    }
+     .navbar-light .navbar-toggler{
+         border-color: #b0b435;
+         color: #010101;
+         border-radius: 0px;
+         margin-right: 7px;
+         padding-top: 6px;
+         padding-top: 6px;
+         float: left;
+         margin-top: 20px;
+    }
+     nav.navbar.bootsnav ul.nav > li > a{
+         padding: 5px 15px;
+    }
+     nav.navbar.bootsnav .navbar-nav{
+         padding: 0px;
+         margin: 0px;
+    }
+     
+     .attr-nav{
+         top: 10px;
+    }
+     .product-item-filter p{
+         float: none;
+    }
+     .product-item-filter{
+         margin: 30px 0px;
+    }
+     .product-categorie-box{
+         margin: 30px 0px;
+    }
+     
+}
+/* mobile or only mobile */
+ @media (max-width: 767px) {
+     nav.navbar.bootsnav .navbar-header{
+         width: 80%;
+    }
+     .navbar-light .navbar-toggler{
+         border-color: #bd1414;
+         color: #010101;
+         border-radius: 0px;
+         margin-right: 7px;
+         padding-top: 6px;
+         padding-bottom: 6px;
+         float: left;
+         margin-top: 28px;
+    }
+     nav.navbar.bootsnav ul.nav > li > a{
+         padding: 5px 15px;
+    }
+     nav.navbar.bootsnav .navbar-nav{
+         padding: 0px;
+         margin: 0px;
+    }
+     .title-blog h3{
+         font-size: 16px;
+    }
+     .footer-widget{
+         margin-bottom: 30px;
+    }
+     .footer-link{
+         margin-bottom: 30px;
+    }
+     nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu{
+         position: initial !important;
+         top: 0px;
+    }
+     .col-menu .title{
+         font-size: 16px;
+    }
+     nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a:hover{
+         color: #d61e1e;
+    }
+     .hover-team{
+         margin-bottom: 30px;}
+
+    
+     .attr-nav{
+         top: 15px;
+    }
+     .right-phone-box{
+         display: none;
+    }
+	.text-slid-box{
+		display: none;
+	}
+
+}
+ @media only screen and (min-width: 280px) and (max-width: 599px) {
+     .navbar-light .navbar-toggler{
+         border-color: #b43535;
+         color: #010101;
+         border-radius: 0px;
+         margin-right: 7px;
+         padding-top: 6px;
+		 padding-bottom: 6px;
+    }
+     nav.navbar.bootsnav ul.nav > li > a{
+         padding: 5px 15px;
+    }}
